@@ -13,9 +13,8 @@ app.use(express.urlencoded({ extended: false}));
 // For console logging
 app.use(require('morgan')('dev'));
 
-
 // NEW So our front-end javascript we have to serve out public static files that will
-// ALWAYS STAY THE SAME, hence the static portion.
+// ALWAYS STAY THE SAME, hence the static.
 app.use(express.static(__dirname+'/public/'));
 
 // ROUTES
