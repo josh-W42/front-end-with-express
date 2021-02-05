@@ -1,0 +1,26 @@
+{
+  "name": "front-end-with-express",
+  "version": "1.0.0",
+  "description": "A personal reference of how to connect a front end to an express back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-W42/front-end-with-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh-W42/front-end-with-express/issues"
+  },
+  "homepage": "https://github.com/josh-W42/front-end-with-express#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "morgan": "^1.10.0"
+  }
+}
